@@ -1,5 +1,6 @@
+var key = prompt("Please type API key")
 var xmlhttp = new XMLHttpRequest()
-var url = 'https://github.com/themesong3/EDI/blob/main/data1.json'
+var url = 'https://my.api.mockaroo.com/cars.json?key=' + key
 xmlhttp.open("GET", url, true)
 xmlhttp.send()
 xmlhttp.onreadystatechange = function()
