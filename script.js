@@ -1,5 +1,5 @@
 var xmlhttp = new XMLHttpRequest()
-var url = 'https://my.api.mockaroo.com/cars.json?key=a46fe600'
+var url = 'https://github.com/themesong3/EDI/blob/main/data1.json'
 xmlhttp.open("GET", url, true)
 xmlhttp.send()
 xmlhttp.onreadystatechange = function()
